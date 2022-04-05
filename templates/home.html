@@ -3,4 +3,48 @@
 {%block title%} Home {%endblock title %}
 
 {%block content%}
+
+<div class="homepage">
+    <div class="homepage-header">
+        <h1>Green-Key Travel Newsletter</h1>
+        <h6>Welcome to the portal for the newsletter. You will be able to submit any articles here and take a look at some amazing things that your co-workers are working on!</h6>
+    </div>
+    <div class="homepage-main-container">
+        <div class="homepage-main">
+            <div class="homepage-links">
+                <a href="{% url 'about' %}">About the Webpage Manager</a>
+                <a href="{% url '"></a>
+            </div>
+            <div class="homepage-story-of-the-month">
+                <h4>Story of the month:</h4>
+                <div class="story-of-the-month-container">
+                    <div class="story-of-the-month-photo">
+                        <img src="{% static 'img/land_of_the_strays_013.webp'%}">
+                        <p>Photo borrowed from the Smithsonian Website: https://www.smithsonianmag.com/travel/these-photos-transport-you-dogs-central-american-paradise-180968018/</p>
+                    </div>
+                    <div class="story-of-the-month-highlight">
+                        <p>Costa Rican Shelter has taken in over 1,000 stray dogs! Read more <a>here</a> about how they are able to manage this incredible feat!</p>      
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="homepage-highlights">
+            <div class="article">
+                <h4>Sports Across the World</h4>
+                <h6>Click <a>here</a> to learn about sporting experiences across the world!</h6>
+            </div>
+            <div class="article">
+                <h4>Dancing through Spain</h4>
+                <h6>Click <a>here</a> to take part in one of the most unique experiences.. and most fun!</h6>
+            </div>
+            <div class="article">
+                <h4>Food to Make You Fall in Love with Greece</h4>
+                <h6>Click <a>here</a> to see why the Mediterranean Diet is one of the most popular!</h6>
+            </div>
+        </div>
+    </div>
+    
+</div>
+
+
 {%endblock content%}
