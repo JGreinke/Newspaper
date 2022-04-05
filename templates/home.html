@@ -5,40 +5,40 @@
 {%block content%}
 
 <div class="homepage">
-    <div class="homepage-header">
+    <div class="homepage-header" style="text-align: center; border: 1px solid #606F49; background-color: #728359; margin-top: 20px; margin-left: 10%; margin-right: 10%; color:#e9f5db; margin-bottom: 20px; box-shadow: 5px 5px 15px 0px #00000075;">
         <h1>Green-Key Travel Newsletter</h1>
         <h6>Welcome to the portal for the newsletter. You will be able to submit any articles here and take a look at some amazing things that your co-workers are working on!</h6>
     </div>
-    <div class="homepage-main-container">
-        <div class="homepage-main">
-            <div class="homepage-links">
-                <a href="{% url 'about' %}">About the Webpage Manager</a>
+    <div class="homepage-main-container" style="display: flex; flex-direction: row; max-width: 70%; margin-left: 13%; margin-right: 5%;">
+        <div class="homepage-main" >
+            <div class="homepage-links" style="text-align: center; border: 1px solid #606F49; background-color: #728359; margin-top: 20px; margin-left: 10%; margin-right: 10%; color:#e9f5db; margin-bottom: 20px;">
+                <a style="text-decoration: none; color:#e9f5db " href="{% url 'about' %}">About the Webpage Manager</a>
                 <a href="{% url '"></a>
             </div>
-            <div class="homepage-story-of-the-month">
-                <h4>Story of the month:</h4>
-                <div class="story-of-the-month-container">
-                    <div class="story-of-the-month-photo">
+            <div class="homepage-story-of-the-month" style="display: flex; flex-direction: row; color: #495538; box-shadow: 5px 5px 15px 0px #00000075; padding: 10px; background-color: #dcebca;">
+                <h4 style="padding: 10px;">Story of the month:</h4>
+                <div class="story-of-the-month-container" style="display: flex; flex-direction: row;">
+                    <div style="padding-top:20px;" class="story-of-the-month-photo">
                         <img src="{% static 'img/land_of_the_strays_013.webp'%}">
-                        <p>Photo borrowed from the Smithsonian Website: https://www.smithsonianmag.com/travel/these-photos-transport-you-dogs-central-american-paradise-180968018/</p>
+                        <p style="font-size: 8px;">Photo borrowed from the Smithsonian Website: https://www.smithsonianmag.com/travel/these-photos-transport-you-dogs-central-american-paradise-180968018/</p>
                     </div>
-                    <div class="story-of-the-month-highlight">
+                    <div style="padding-top:20px;" class="story-of-the-month-highlight">
                         <p>Costa Rican Shelter has taken in over 1,000 stray dogs! Read more <a>here</a> about how they are able to manage this incredible feat!</p>      
                     </div>
                 </div>
             </div>
         </div>
-        <div class="homepage-highlights">
-            <div class="article">
-                <h4>Sports Across the World</h4>
+        <div class="homepage-highlights" style="max-width: 35%; border-left: 1px solid #606F49; padding-left: 5%; margin-left: 5%; color: #495538; margin-top: 20px; ">
+            <div class="article" style="border: 1px solid #606F49; background-color: #849669; margin-bottom: 5px; padding: 8px;color:#dcebca;">
+                <h4 style="color: #495538">Sports Across the World</h4>
                 <h6>Click <a>here</a> to learn about sporting experiences across the world!</h6>
             </div>
-            <div class="article">
-                <h4>Dancing through Spain</h4>
+            <div class="article" style="border: 1px solid #606F49; background-color: #849669; margin-bottom: 5px; padding: 8px;color:#dcebca;">
+                <h4 style="color: #495538">Dancing through Spain</h4>
                 <h6>Click <a>here</a> to take part in one of the most unique experiences.. and most fun!</h6>
             </div>
-            <div class="article">
-                <h4>Food to Make You Fall in Love with Greece</h4>
+            <div class="article" style="border: 1px solid #606F49; background-color: #849669; margin-bottom: 5px; padding: 8px;color:#dcebca;">
+                <h4 style="color: #495538">Food to Make You Fall in Love with Greece</h4>
                 <h6>Click <a>here</a> to see why the Mediterranean Diet is one of the most popular!</h6>
             </div>
         </div>

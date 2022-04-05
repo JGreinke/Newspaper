@@ -1,0 +1,21 @@
+{%extends 'base.html'%}
+{%load static%}
+{%block title%} About Me {%endblock title%}
+{%block content%}
+    <h1 class="header-title">About the author</h1>
+    <div class="about-me-section">
+        <div class="about-me-writing">
+            <h4 class="about-me">Hi and welcome to the Green-Key Travel Blog!</h4>
+            <span></span>
+            <p class="about-me">
+                My name is Jasmine Greinke and I love traveling, taking photos, and relaxing at home.
+            </p> 
+            <span></span>
+            <p class="about-me">I hope you enjoy this website and the posts created here by myself and those that also love traveling. If you would like to work on a web design project in the future, feel free to reach out at 📧 &nbsp;greinkejs1069@marybaldwin.edu </p>
+        </div>
+        
+        <img class="about-me-img" src="{% static 'img/AboutMe.jpeg'%}">
+    </div>
+    
+
+{%endblock content%}
