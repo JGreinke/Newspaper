@@ -1,0 +1,15 @@
+{% extends 'base.html'%} 
+
+{% block title %} Log In {% endblock title %} 
+
+{%block content%} 
+<div>
+    <h1 class="header-title">Welcome back! You can login below to access the Green-Key Newspaper Terminal:</h1>
+    <form method="POST">
+        {% csrf_token %} 
+        {{ form.as_p }} 
+        <input type="submit" value="Log In" class="btn btn-success">
+    </form>
+    <p>If you are having issues logging in, contact: Jasmine Greinke (greinkejs1069@marybaldwin.edu)</p>
+</div>
+{%endblock content%} 
